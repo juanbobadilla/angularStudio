@@ -28,7 +28,7 @@ export class BodyComponent implements OnInit {
       this.users.push(new dato(email.value, password.value, this.users.length));
     }
     email.value ="";
-    password.value=""
+    password.value="";
     return false;
   }
 
