@@ -16,6 +16,7 @@
                     <li class="list-group-item" *ngFor="let item of users; let key=index">
                         <button class="btn btn-danger btn-block" (click)="Delete(key)">X</button>
                         <div class="card list-group-item-action mb-4">
+                            <h4>id: {{item.id}}</h4>
                             <div class="card-header">Correo: {{ item.email}}</div>
                             <div class="card-body">
                                 contraseña: {{item.password}}
